@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(homeIntent);
                     }
                 });
-
         AlertDialog alertCard = alert.create();
         alertCard.getWindow().setGravity(Gravity.TOP);
         alertCard.show();
