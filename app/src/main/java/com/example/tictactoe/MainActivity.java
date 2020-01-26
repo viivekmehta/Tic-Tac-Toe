@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showDialog(String winner) {
         AlertDialog.Builder alert = new AlertDialog.Builder(this)
-                .setTitle("Voilla!! "+winner+" won!")
+                .setTitle("Voilla !! "+winner+" won!")
                 .setMessage("Do you want to Play again ?")
                 // Specifying a listener allows you to take an action before dismissing the dialog.
                 // The dialog is automatically dismissed when a dialog button is clicked.
