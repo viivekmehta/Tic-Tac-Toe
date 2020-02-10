@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showDialogPlayAgain() {
         AlertDialog.Builder alert = new AlertDialog.Builder(this)
-                .setTitle("Oops!! Its a tie!")
+                .setTitle("Oops!! Its a tie !")
                 .setMessage("Do you want to Play again ?")
 
                 // Specifying a listener allows you to take an action before dismissing the dialog.
